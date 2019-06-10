@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5c9f907-fb9c-480a-a260-7dcebc3e4e3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MOBILE/.vs/New Unity Project/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/.vs/New Unity Project/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/.vs/New Unity Project/v15/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/.vs/New Unity Project/v15/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Editor/PermissionsDemoBuildProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Editor/PermissionsDemoBuildProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Images/logo_hello_vr_108px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Images/logo_hello_vr_108px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scenes/VideoDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scenes/VideoDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/HelloVR/HeadsetDemoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/HelloVR/HeadsetDemoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/HelloVR/HelloVRManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/HelloVR/HelloVRManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/KeyboardDemo/KeyboardDelegateExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/KeyboardDemo/KeyboardDelegateExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Shaders/HelloVR/HelloVRUnlitGrayscaleToColor.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Demos/Shaders/HelloVR/HelloVRUnlitGrayscaleToColor.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrBuildProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrBuildProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrEditorMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrEditorMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrEditorSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Editor/GvrEditorSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Resources/GvrAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Resources/GvrAudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/GvrController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/GvrController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/GvrControllerVisualManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/GvrControllerVisualManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/GvrPointerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Legacy/Scripts/GvrPointerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Materials/Video/VideoStereo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Materials/Video/VideoStereo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Materials/Video/VideoStereoInside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Materials/Video/VideoStereoInside.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/AndroidManifest-6DOF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/AndroidManifest-6DOF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/AndroidManifest-Cardboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/AndroidManifest-Cardboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/AndroidManifest-Daydream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/AndroidManifest-Daydream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/proguard-gvr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/Android/proguard-gvr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.mm" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Plugins/iOS/GvrAudioAppController.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/README" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrEditorEmulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrEditorEmulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Pose3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Pose3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/UI/GvrDropdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/UI/GvrDropdown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrAdditiveOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrAdditiveOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrController.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrController.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrControllerReticle.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrControllerReticle.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrReticleShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrReticleShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUIOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUIOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUIOverlayFont.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUIOverlayFont.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/Scenes/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/Scenes/UI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/Scenes/test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/Scenes/test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Editor/ExcutionOrderManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Editor/ExcutionOrderManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Plugins/lxvr-sdk.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Plugins/lxvr-sdk.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Resources/Animations/BlackRoom/BlackRoom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Resources/Animations/BlackRoom/BlackRoom.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Resources/Prefabs/LXVRManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Resources/Prefabs/LXVRManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Resources/Shader/BlurShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Resources/Shader/BlurShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial1/Tutorial1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial1/Tutorial1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial2/Resources/TestVideo/example.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial2/Resources/TestVideo/example.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial2/Tutorial2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial2/Tutorial2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial2/Tutorial2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Assets/lxvr-sdk/Tutorials/Tutorial2/Tutorial2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/LastBuild.buildreport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/02880293ed1044d649b0d70cdee089b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/02a97dfc134a1d34ab4cfe92ffa44f8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/033cbd985579546fdad3c1d65298a49b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/04d326650037a452eb7e374275d62e2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/06667845361554531867bfdd0187dbf3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/09a03ec45979d4496b5aa0409a99e7e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/1415c1409be2f4040a04cb586a42e853" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/203749e25e2054dc1a97417d44388797" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/227870dbdf84b4876b6b1bf667ec5c7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/275ace9a5b95445a1864d4aa803256cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/2b73b3ae4bd3843f38edc129c4c9783c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/38f3da2e4f7aa46a8969f3d500041b27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/40027106788bf45deaaa1b5ea45a7702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/479650f9cba1247d69658a7da7e9e60d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/4815ce33c96ff4e74ab3d376cd8fecbb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/4815ce33c96ff4e74ab3d376cd8fecbb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/4c16461e9edcc4206916ae97dfd1f686" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/519aefd6ac0164fb68c1057e9df0751e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/558c26c59ca654d7591acc6465ba0d5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/592d3c95706344220834d1e7d960c611" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/5a19253f23c4b4cc3b9c4b755a2e267f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/5cbb6afa91bc742c8be955a55c408c5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/5cdc840b22bfa482099e446760fbde86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/67e2421a9044e4ce5bb2123f378c9f24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/6cdd98fcbe6e746e999213647d7e1664" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/6cdd98fcbe6e746e999213647d7e1664" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/6e65d23cdaf9b428390f0ad124dc0d02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/7023205d82dcf4aeba9be1be84acff70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/703ff5f43feb8477d891b6eeb7ec5302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/75287b157f0ef4db79fab7e8acf2abd6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/759f769b61fcc4c8b9e4c2a18b040372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/77766411f24d746fa892047d8197139d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/7b59232d94e924caf84e376cae6f34bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/8a6f032a34a0045a7990192c445d321a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/8b726fd9534184dc0baba0e5ba4cd5cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/8c763b143148144e48ae69ab68e3ae76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/92551e2124a4645658abcec5a4386b1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/947d94064e5a04c669b9dafce1cbb6e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/95d033b2c8d3b412ebcac0307ade2da0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/Managed/lxvr-sdk.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/Managed/lxvr-sdk.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/a9b1f62b28a5e435eba9f6b35d405e4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ac77b762f27794b64932e7b569615bf7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ad40a3bc861fc4347a375cea61f8d867" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/af50851acd37d43dba7ef0abc69bb9d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/af807d147026d42619dc26b3859fce4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/b5c9b86816c794255b8f52c7819e5d36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/b66a448695b0c4cd08e30499acdf346e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/be4595494f5a3472e9eabdd7a886b3a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/be93fec5f704845bf906843a76bc6654" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/c58a0033d731e465689a523e4ac4b4fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ca039e4700b014b66b5467dd6a8df7c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/cd43058f20db64b31aa484be449460bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/cfb2698e69e79494a9fa295ced0a2d6f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/d1d9ca01ca37243e384711b79f5c7489" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/d3eafa043ffe74ca5a29a5e01097dd78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/d40ba2da2a8244270afcf0b723deebe9" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/d40ba2da2a8244270afcf0b723deebe9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/e4c6b3f2476d5476d9e300f582574e18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/e6a67e2498e3441a7bb5285085674a01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/e745f13f3b72f477c884440efa0c0e1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/e86059fd296594b8eade1ad47c632f9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/e9fe87e1bbeeb4a839ad38af6dea6ecc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ebb461688005a4ab08b0e185d262e4b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ed0dfe3541e3f4210a8eb96da4d02c89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ed5445512be6f4faf837e3f84f8af34a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ee54595ec3ce54206bd366c775d351f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/efa05c916fa354138bfaa48a6cbcd0a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/f0c3b6fa97d89495698e3ea62772a4b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/f3349e9d48156448bb95f278aed3fc28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/f8f73a19eb2e0436497222e034fa3537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/fe2d42f393f4d426096bcd15c44f1f62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/ffe6e26d2e4e849f8948db49b4483185" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/ScriptLayoutHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/PlayerDataCache/Android/ScriptLayoutHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/00/00f93e3df109d4a69834d44deb072725" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/00/00f93e3df109d4a69834d44deb072725" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/05/05d7d64713447433b86cb9a4e3d48560" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/05/05d7d64713447433b86cb9a4e3d48560" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/06/06aa46b8e43675d43b204c3638e59767" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/06/06aa46b8e43675d43b204c3638e59767" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/0c/0ca644865f5f4479fb50471605078cf0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/0c/0ca644865f5f4479fb50471605078cf0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/0c/0cc7f51d6c6b140f79f7afded8b84284" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/0c/0cc7f51d6c6b140f79f7afded8b84284" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/0f/0f791be37caef48c79f72011276ab16a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/0f/0f791be37caef48c79f72011276ab16a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/11/114ed7f3f1d114a2988b1f93a233b40e" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/11/114ed7f3f1d114a2988b1f93a233b40e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/11/118ed627eb676472d803284d1a988bbd" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/11/118ed627eb676472d803284d1a988bbd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/11/11ce60bdf78924133940a4a64555e784" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/11/11ce60bdf78924133940a4a64555e784" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/12/127c2783105b84d52adbb2499339f572" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/12/127c2783105b84d52adbb2499339f572" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/12/12bd1ba026e3d49a285ef666388aa4e9" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/12/12bd1ba026e3d49a285ef666388aa4e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/17/171f0a30d9ead4516a8fa319cfebe270" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/17/171f0a30d9ead4516a8fa319cfebe270" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/19/19a9f6c7cb74d44bd9bbc87397789f7c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/19/19a9f6c7cb74d44bd9bbc87397789f7c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1a/1a6b456eb0cd540a489e0f82c377b187" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1a/1a6b456eb0cd540a489e0f82c377b187" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1a/1a8761daaa87949d9bfee83827f1cf81" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1a/1a8761daaa87949d9bfee83827f1cf81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1b/1b78ffabb50d1e94ca164106f5444e34" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1b/1b78ffabb50d1e94ca164106f5444e34" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1b/1bec9ea3efe7849ffae666549aca3cad" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1b/1bec9ea3efe7849ffae666549aca3cad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1d2722c2401e34d51bf5b473ef7aeefb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1d2722c2401e34d51bf5b473ef7aeefb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1d94b17868379452aad02b04eb7b0e6e" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1d94b17868379452aad02b04eb7b0e6e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1dc9b836084eb4f28aa10a98a5a58f67" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1dc9b836084eb4f28aa10a98a5a58f67" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1dc9b836084eb4f28aa10a98a5a58f67.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1d/1dc9b836084eb4f28aa10a98a5a58f67.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/1f/1f16e78d5a8cbe946b9dbaad22815581" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/1f/1f16e78d5a8cbe946b9dbaad22815581" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/20/2057fd0fa21f34bc2ba2dd2a4a2a38b5" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/20/2057fd0fa21f34bc2ba2dd2a4a2a38b5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/22/22a6dc478e59e4b35b25f9f26ddc4361" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/22/22a6dc478e59e4b35b25f9f26ddc4361" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/23/23485e28fa60c463f8235998a0e76e6a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/23/23485e28fa60c463f8235998a0e76e6a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/23/23744ffc3b678488e858089d1a2973d9" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/23/23744ffc3b678488e858089d1a2973d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/28/2854f924ab8f4df4799e80ad772b86ff" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/28/2854f924ab8f4df4799e80ad772b86ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/2a/2a443597ee157fe49a30c4310f1fb2eb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/2a/2a443597ee157fe49a30c4310f1fb2eb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/2a/2a4fdc21aee934d82baa564e797da921" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/2a/2a4fdc21aee934d82baa564e797da921" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/2e/2e20199949e8e4ecd992d68cf09fc902" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/2e/2e20199949e8e4ecd992d68cf09fc902" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/2e/2e71f5afb881f443bbce909fe451d8fe" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/2e/2e71f5afb881f443bbce909fe451d8fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/31/311793381eb9d45149dc1a422000a9fd" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/31/311793381eb9d45149dc1a422000a9fd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/35/3590c93395a39449ca11509317375cea" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/35/3590c93395a39449ca11509317375cea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/36/36d276bd7b313441fbe34aadce7598ca" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/36/36d276bd7b313441fbe34aadce7598ca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/38/38722f7e29e284a8bb3a91c83a5b8848.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/38/38722f7e29e284a8bb3a91c83a5b8848.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/39/39eb02921e5624cf18f5b235bcc1e1cb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/39/39eb02921e5624cf18f5b235bcc1e1cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/3d/3d8a11f288cdc4334960e2918784f443" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/3d/3d8a11f288cdc4334960e2918784f443" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/3f/3fda152dc25154b4a9cccb75fd77f018" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/3f/3fda152dc25154b4a9cccb75fd77f018" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/410d5a91205334dda9fd1bf3d325809a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/410d5a91205334dda9fd1bf3d325809a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/41251d5f89d5546bb9d8ba907686b71f" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/41251d5f89d5546bb9d8ba907686b71f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/41679d3338266415f88d226e6bf3d0be" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/41679d3338266415f88d226e6bf3d0be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/41c83891d500f43ca90ce70315712c84" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/41/41c83891d500f43ca90ce70315712c84" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/47/4768e786f437540fd9f7d0c0d5778312" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/47/4768e786f437540fd9f7d0c0d5778312" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/48/4815ce33c96ff4e74ab3d376cd8fecbb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/48/4815ce33c96ff4e74ab3d376cd8fecbb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/48/4815ce33c96ff4e74ab3d376cd8fecbb.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/48/4815ce33c96ff4e74ab3d376cd8fecbb.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/48/48f7ce7c2a1174ffdac9ebd5815bfa13" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/48/48f7ce7c2a1174ffdac9ebd5815bfa13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/49/494e0fcfce3cb4d1c973863b3ad4e5d0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/49/494e0fcfce3cb4d1c973863b3ad4e5d0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/4a/4a6dfb4ffb3454bce9cec19932b90538" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/4a/4a6dfb4ffb3454bce9cec19932b90538" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/4b/4b50a67a5a86e4093bf89c85cbc2c700" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/4b/4b50a67a5a86e4093bf89c85cbc2c700" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/4e/4e8df902e7cb54f57bd1492b46fbe33d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/4e/4e8df902e7cb54f57bd1492b46fbe33d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/50/502d6c11db45f4e4794c2830bc158ba1" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/50/502d6c11db45f4e4794c2830bc158ba1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/50/509a29025635b4c31bb337addea72a7c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/50/509a29025635b4c31bb337addea72a7c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/51/51b65678ccdd949e9a58874d2880c0ef" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/51/51b65678ccdd949e9a58874d2880c0ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/57/573e2b04dc4734d68a2b6747421ce0bc" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/57/573e2b04dc4734d68a2b6747421ce0bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/57/57e34a0b7bd8740c5922ce5840ba3ee8" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/57/57e34a0b7bd8740c5922ce5840ba3ee8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/5b/5baa0455970b442238015283920cc587" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/5b/5baa0455970b442238015283920cc587" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/5d/5db1ab7348db34ecbac8c834c5d3425f" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/5d/5db1ab7348db34ecbac8c834c5d3425f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/5e/5e2f6e8d1f189fc47af8cdffde535895" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/5e/5e2f6e8d1f189fc47af8cdffde535895" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/5e/5eb60798954e54a7280c0cd353773edf" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/5e/5eb60798954e54a7280c0cd353773edf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/66/66fe40e11a2514648906e6825b026b85" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/66/66fe40e11a2514648906e6825b026b85" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/68/680140f42b355d442a0a57a1d8fcc4b1" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/68/680140f42b355d442a0a57a1d8fcc4b1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/68/6858e4497e2e64bc8aa5955409ec78ad" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/68/6858e4497e2e64bc8aa5955409ec78ad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/69/696c86fab86049947bd12e68a9b724cf" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/69/696c86fab86049947bd12e68a9b724cf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/6b/6bf1f92fb4ae24291b71e77c1ccac323" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/6b/6bf1f92fb4ae24291b71e77c1ccac323" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/6c/6cdd98fcbe6e746e999213647d7e1664" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/6c/6cdd98fcbe6e746e999213647d7e1664" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/6d/6dbca64e524ea44f9b26142ec59aca8a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/6d/6dbca64e524ea44f9b26142ec59aca8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/70/70f36fab7a81646eeb5c083264db5be0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/70/70f36fab7a81646eeb5c083264db5be0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/73/7304a3fe3b19a4eb8ba4e4b21008b2f0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/73/7304a3fe3b19a4eb8ba4e4b21008b2f0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/73/739800cd36aba44e9b04ce977e5784bd" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/73/739800cd36aba44e9b04ce977e5784bd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/75/7528488988f9d48478da328909125dea" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/75/7528488988f9d48478da328909125dea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/75/75e29b2b7f39fc5489e792b0f3338c79" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/75/75e29b2b7f39fc5489e792b0f3338c79" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/76/76d2b695633884daf905c07095c8a01c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/76/76d2b695633884daf905c07095c8a01c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/7b/7b912427c85634a3fa13020a8d93c38a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/7b/7b912427c85634a3fa13020a8d93c38a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/7c/7c52851ea0de74a228fa29a84de008ba" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/7c/7c52851ea0de74a228fa29a84de008ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/7d/7dda4bb2d5509e44e978d2bf56e25d7c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/7d/7dda4bb2d5509e44e978d2bf56e25d7c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/83/8358cf789a848412fbb10ba05c4f3fce" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/83/8358cf789a848412fbb10ba05c4f3fce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/84/846f7b1b78d8e4eb2a0db361797b6e76" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/84/846f7b1b78d8e4eb2a0db361797b6e76" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/84/84ad368148aad42938b2fdb28552e8ac" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/84/84ad368148aad42938b2fdb28552e8ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/8a/8a93ebe04d36b49c388adce4ac442226" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/8a/8a93ebe04d36b49c388adce4ac442226" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/91/9159532a8a3d946aa9df74e771243e5b" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/91/9159532a8a3d946aa9df74e771243e5b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/92/92551e2124a4645658abcec5a4386b1b" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/92/92551e2124a4645658abcec5a4386b1b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/94/94f5d450d1bd94c97b1dc8109b633ac0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/94/94f5d450d1bd94c97b1dc8109b633ac0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/95/95b832a777470485b891baa8026133ce" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/95/95b832a777470485b891baa8026133ce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/99/9961197a3979a4fa684159098ac5881f" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/99/9961197a3979a4fa684159098ac5881f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/9e/9e216f327e132794b8e02093522ae84c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/9e/9e216f327e132794b8e02093522ae84c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/9f/9f9210011b71142d5966eec2db6cc696" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/9f/9f9210011b71142d5966eec2db6cc696" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a2/a229fefd8ee7448b0b700f6000ebdec3" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a2/a229fefd8ee7448b0b700f6000ebdec3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a3/a3b352fc2ba734605a3df75466e600f0" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a3/a3b352fc2ba734605a3df75466e600f0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a3/a3bbe11c576194adba41e6f574dda321.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a3/a3bbe11c576194adba41e6f574dda321.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a5/a546592901a23411d99a5fef0ada01e7" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a5/a546592901a23411d99a5fef0ada01e7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a5/a5d8d09b9e5d2437aa022780a2ce8c83" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a5/a5d8d09b9e5d2437aa022780a2ce8c83" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a6/a6a4dc79e16b24f91978bbf65972aebb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a6/a6a4dc79e16b24f91978bbf65972aebb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/a8/a89c2f792b6ed4b3c8e3d82ed9b3c4cc" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/a8/a89c2f792b6ed4b3c8e3d82ed9b3c4cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/aa/aa82b02603e0a44f59cf3bfa4a25e512" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/aa/aa82b02603e0a44f59cf3bfa4a25e512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/aa/aa952cbcc0eb13d4ca558b6da550ff55" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/aa/aa952cbcc0eb13d4ca558b6da550ff55" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ac/acad0e6b1721a4b30992f78c06434321" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ac/acad0e6b1721a4b30992f78c06434321" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ad/adb9b18ac2466473a850d8acd17654a1" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ad/adb9b18ac2466473a850d8acd17654a1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ad/adde9bdea083943199c7959004756e60" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ad/adde9bdea083943199c7959004756e60" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ae/ae2d286fc7c3e427bbde238c0ebb970b" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ae/ae2d286fc7c3e427bbde238c0ebb970b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b0/b05767d6e8b854cd0987b344898cc15d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b0/b05767d6e8b854cd0987b344898cc15d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b0/b0dc366f6bd074945a86579cd29111b7" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b0/b0dc366f6bd074945a86579cd29111b7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b1/b1156c073149742478887bb24456f32d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b1/b1156c073149742478887bb24456f32d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b5/b5cd7f7fcfc8a4c1fbc201ccc579556d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b5/b5cd7f7fcfc8a4c1fbc201ccc579556d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b6/b621d217eade547b4841c4471106b6e5" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b6/b621d217eade547b4841c4471106b6e5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b6/b6d9412aff759420192d8dcf33f969bb" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b6/b6d9412aff759420192d8dcf33f969bb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b6/b6ecee1e7b5ef4412ba89d59a49afd69" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b6/b6ecee1e7b5ef4412ba89d59a49afd69" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b7/b7c28afb12456b7469919c6a64cee9c1" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b7/b7c28afb12456b7469919c6a64cee9c1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/b9/b9fcd2a047ec9c440a2bfeace305c425" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/b9/b9fcd2a047ec9c440a2bfeace305c425" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c1/c173d28b2a4224c52a4c8ea503f4e2b9" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c1/c173d28b2a4224c52a4c8ea503f4e2b9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c2/c259eeb26e96b4f1d8eeb8871bcfdac5" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c2/c259eeb26e96b4f1d8eeb8871bcfdac5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c3/c36f3afb2cb4ef840bf3183652900afe" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c3/c36f3afb2cb4ef840bf3183652900afe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c3/c39c9ce1c4cb949db8dc00fc0750f708" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c3/c39c9ce1c4cb949db8dc00fc0750f708" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c4/c42ca6bb02b364893b127c681c158442" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c4/c42ca6bb02b364893b127c681c158442" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c4/c485d86d5e69340f09123a723b06bc87" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c4/c485d86d5e69340f09123a723b06bc87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/c4/c4d57836d4e064f449f3e2f03330e9ce" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/c4/c4d57836d4e064f449f3e2f03330e9ce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ca/ca0157c63fb794df89c6735fc602eca2" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ca/ca0157c63fb794df89c6735fc602eca2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/cb/cb01f40fa958548a5b1f92a685e6d46d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/cb/cb01f40fa958548a5b1f92a685e6d46d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/cb/cb5f458261eac491b9379eb30aec0947" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/cb/cb5f458261eac491b9379eb30aec0947" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/cc/cc6e38fe705a640ba9cc80555465b13e" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/cc/cc6e38fe705a640ba9cc80555465b13e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ce/ce0ec89649a704bd991b4db7e412794f" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ce/ce0ec89649a704bd991b4db7e412794f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d0/d0dea43be37504c45ab74cf9fcfbf34a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d0/d0dea43be37504c45ab74cf9fcfbf34a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d1/d1b8f07442700094898145567ef1f203" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d1/d1b8f07442700094898145567ef1f203" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d2/d2e5fe232b3b94de2a12eb364ebc371e" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d2/d2e5fe232b3b94de2a12eb364ebc371e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d3/d38f0664abc0c446a8fa0886ec2bcd12" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d3/d38f0664abc0c446a8fa0886ec2bcd12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d5/d58d208ecab3b4c68864333c61ffac7b" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d5/d58d208ecab3b4c68864333c61ffac7b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d6/d6cef2ddf786f4c10a3c9424db54acf1" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d6/d6cef2ddf786f4c10a3c9424db54acf1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d6/d6dc4d56dabb6444a8fda878f2e8acc1" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d6/d6dc4d56dabb6444a8fda878f2e8acc1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/d8/d8b9c789363a44b1e87727b1c4d085f6" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/d8/d8b9c789363a44b1e87727b1c4d085f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/da/da538b2d940864934bfd4a6f2e6d0602" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/da/da538b2d940864934bfd4a6f2e6d0602" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/dd/ddd25f1308577456cbaa207901961126" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/dd/ddd25f1308577456cbaa207901961126" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/e0/e0a32f2191dec4e1b8e05acab6002be6" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/e0/e0a32f2191dec4e1b8e05acab6002be6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/e3/e39841bba8ebf4707aff759a1690a400" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/e3/e39841bba8ebf4707aff759a1690a400" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/e4/e4a605c315b944e7f84ed1dbe9ff6921" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/e4/e4a605c315b944e7f84ed1dbe9ff6921" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/e5/e5000c7de28ac497c8564ecb8d1f005d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/e5/e5000c7de28ac497c8564ecb8d1f005d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/e7/e7441953e05443d4fa517d1ce7382b0c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/e7/e7441953e05443d4fa517d1ce7382b0c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/e7/e7dcc90c2e60c4011896c7f21fc1f557" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/e7/e7dcc90c2e60c4011896c7f21fc1f557" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/eb/eb5dd43baba2d4dc1bab789615567e3d" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/eb/eb5dd43baba2d4dc1bab789615567e3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ec/ecd9463bbd7994be09b972947a085067" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ec/ecd9463bbd7994be09b972947a085067" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ef/ef63f87a26b474e1c88f77dfc4f3aa3a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ef/ef63f87a26b474e1c88f77dfc4f3aa3a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ef/efe7e44b35e61314983888468dcb5686" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ef/efe7e44b35e61314983888468dcb5686" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/f3/f3bf9c1bacbb04f72bb43e892c3a98a9" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/f3/f3bf9c1bacbb04f72bb43e892c3a98a9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/f4/f4ee199cdc1304b2090f019e4f488674" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/f4/f4ee199cdc1304b2090f019e4f488674" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/f7/f73feeef531a54f2a8cf5b05a8c06e58" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/f7/f73feeef531a54f2a8cf5b05a8c06e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/f7/f789f1d07e73f42b398b211da58efc42" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/f7/f789f1d07e73f42b398b211da58efc42" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/fb/fbc799bc7ede6a940b24eff19a72979c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/fb/fbc799bc7ede6a940b24eff19a72979c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/fb/fbdf93500b5014ec9872a59cb683089a" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/fb/fbdf93500b5014ec9872a59cb683089a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/fc/fcd4baceb58cc40c98e500572bede6a6" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/fc/fcd4baceb58cc40c98e500572bede6a6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/fd/fdbce15836bf64163856f689fdd67b2c" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/fd/fdbce15836bf64163856f689fdd67b2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ff/ff12693eea0a446d0a2183f2ffe9c711" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ff/ff12693eea0a446d0a2183f2ffe9c711" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/metadata/ff/fff2ffa71f4754593a63b4ebb799955e" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/metadata/ff/fff2ffa71f4754593a63b4ebb799955e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MOBILE/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MOBILE/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="760688668">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="78" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="5" />
+          <entry key="project.open.time.18" value="9" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="3" />
+          <entry key="project.open.time.3" value="14" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="3" />
+          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="51" />
+          <entry key="py" value="8799" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="8850" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1447659212">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="1" />
+          <entry key="spec" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="11" />
+          <entry key="py" value="117" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="128" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+              <folding>
+                <element signature="e#24#45#0" expanded="true" />
+                <marker date="1560168385361" expanded="true" signature="4642:4789" ph="..." />
+                <marker date="1560168385361" expanded="true" signature="4667:4789" ph="..." />
+                <marker date="1560168385361" expanded="true" signature="8714:8715" ph="..." />
+                <marker date="1560168385361" expanded="true" signature="9995:10000" ph="..." />
+                <marker date="1560168385361" expanded="true" signature="10073:10074" ph="..." />
+                <marker date="1560168385361" expanded="true" signature="11009:11010" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wrapper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1178">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tkdnd</find>
+      <find>dnd</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TCP.py" />
+        <option value="$PROJECT_DIR$/UDP.py" />
+        <option value="$PROJECT_DIR$/UI.py" />
+        <option value="$PROJECT_DIR$/CNN.py" />
+        <option value="$PROJECT_DIR$/wrapper.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="373" />
+    <option name="y" value="252" />
+    <option name="width" value="743" />
+    <option name="height" value="605" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\backup\grade" />
+      <recent name="E:\backup\grade\dist\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="grade" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="grade" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wrapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="grade" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.wrapper" />
+      <item itemvalue="Python.CNN" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.CNN" />
+        <item itemvalue="Python.wrapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5c9f907-fb9c-480a-a260-7dcebc3e4e3a" name="Default Changelist" comment="" />
+      <created>1541816874749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541816874749</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16443452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3448276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39508197" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32670453" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" x="693" y="207" width="556" height="129" id="Terminal" order="8" weight="0.18323864" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3252841" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17555939" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24397163" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39600664" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33186814" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UDP.py" />
+    <entry file="file://$PROJECT_DIR$/TCP.py" />
+    <entry file="file://$PROJECT_DIR$/UI.py" />
+    <entry file="file://E:/game/conda/envs/grade/Lib/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/game/conda/envs/grade/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/game/conda/envs/grade/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/game/conda/envs/web/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="92" column="64" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/black.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/black.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.spec" />
+    <entry file="file://$PROJECT_DIR$/CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1178">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+            <marker date="1560168385361" expanded="true" signature="4642:4789" ph="..." />
+            <marker date="1560168385361" expanded="true" signature="4667:4789" ph="..." />
+            <marker date="1560168385361" expanded="true" signature="8714:8715" ph="..." />
+            <marker date="1560168385361" expanded="true" signature="9995:10000" ph="..." />
+            <marker date="1560168385361" expanded="true" signature="10073:10074" ph="..." />
+            <marker date="1560168385361" expanded="true" signature="11009:11010" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
