@@ -33,7 +33,6 @@ namespace GoogleVR.VideoDemo
         private bool TF;
         private bool TF1;
         private byte[] Data = null;
-        private UI.testStatus curState;
         
         //looxidVR Manager 초기화
         public static test instance = null;
@@ -47,8 +46,6 @@ namespace GoogleVR.VideoDemo
         public void Init()
         {
             lxvrManager = LXVRManager.Instance;
-            lxvrManager.connectionStatusCallback = OnConnectStatusCallback;
-            lxvrManager.lxvrStatusChangedCallback = OnStatusChanged;
             model = SystemInfo.deviceModel;
             TF = true;
             TF1 = true;
@@ -117,13 +114,15 @@ namespace GoogleVR.VideoDemo
                     //뇌파 녹화 시작
                     else if (command[0].Equals("start"))
                     {
-                        lxvrManager.RecordingStart(model, "1", false, resultSuccessCallback, resultFailCallback);
-
+                        lxvrManager.StartRecording(UI.instance.getstatus().ToString(),
+                                           name, 
+                                           false,
+                                           (LXVRResult result) => OnRecordingStartCallback(result));
                     }
                     //뇌파 녹화 중지
                     else if (command[0].Equals("stop"))
                     {
-                        lxvrManager.RecordingStop(model, "1", resultSuccessCallback, resultFailCallback);
+                        lxvrManager.StopRecording((LXVRResult result) => OnRecordingStopCallback(result));
                     }
                     //분석 로딩
                     else if (command[0].Equals("loading"))
@@ -216,8 +215,10 @@ namespace GoogleVR.VideoDemo
                     if (Equals("broadcast", str))
                     {
                         state = "broad";
+                        Debug.Log(state);
                         byte[] sdata = Encoding.UTF8.GetBytes(model);
                         udp.Send(sdata, sdata.Length, broad);
+                        Debug.Log(sdata);
                         state = "send: " + sdata;
                     }
                     //자신의 IP 수신
@@ -253,32 +254,48 @@ namespace GoogleVR.VideoDemo
                 t2.Join();
             }
         }
-        
+
         /*
          * LooxidVR Manager 관련 함수들
          */
-        public void OnConnectStatusCallback(ConnectionStatus connectionStatus)
+        public void OnEyeTrackerStatusChanged(EyeTrackerStatus eyeTrackerStatus)
         {
-            Debug.Log("OnConnectStatusCallback : " + connectionStatus);
-            switch (connectionStatus)
+            Debug.Log("--> OnEyeTrackerStatusChanged : " + eyeTrackerStatus);
+            // Do Something...
+        }
+
+        public void OnEEGSensorStatusChanged(EEGSensorStatus eegSensorStatus)
+        {
+            Debug.Log("--> OnEEGSensorStatusChanged : " + eegSensorStatus);
+            // Do Something...
+        }
+
+        public void OnRecordingStatusChanged(RecordingStatus recordingStatus)
+        {
+            Debug.Log("--> OnRecordingStatusChanged : " + recordingStatus);
+            // Do Something...
+        }
+
+        private void OnRecordingStartCallback(LXVRResult result)
+        {
+            if (result == LXVRResult.Success)
             {
-                case ConnectionStatus.Connected:
-                    isConnected = true;
-                    break;
-                case ConnectionStatus.Disconnected:
-                    isConnected = false;
-                    break;
             }
         }
-        public void OnStatusChanged(LXVRStatus status)
+
+        private void OnRecordingEventCallback(LXVRResult result)
         {
-            Debug.Log("OnStatusChanged");
-            Debug.Log("------> coreStatus " + status.coreStatus);
-            Debug.Log("------> eegSensor " + status.eegSensorStatus);
-            Debug.Log("------> eyeCamera " + status.eyeCameraStatus);
-            /*
-             * VR기기의 연결 상태에 따른 기능 구현
-             */
+            if (result == LXVRResult.Success)
+            {
+            }
+        }
+
+        private void OnRecordingStopCallback(LXVRResult result)
+        {
+            if (result == LXVRResult.Success)
+            {
+                Debug.Log("OnRecordingStopCallback : " + result);
+            }
         }
         LXVRDelegate resultSuccessCallback = () =>
         {

@@ -195,7 +195,6 @@ namespace GoogleVR.VideoDemo
                             loading.text = "Analysis Loading.......";
                         test.instance.loading.SetActive(true);
                         Debug.Log("status : loading");
-                        
                     }
                     break;
                 //예정 : PC에서 분석된 결과 표시
@@ -222,7 +221,6 @@ namespace GoogleVR.VideoDemo
                     test.instance.joinT2();
                     Debug.Log("status : end");
                     break;
-
                 default:
                     break;
             }

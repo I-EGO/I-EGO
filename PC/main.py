@@ -299,7 +299,7 @@ class UDPwrite(threading.Thread):
     ip = so.gethostbyname(so.getfqdn())
     print(ip)
     list = ip.split('.')
-    ip = list[0]+'.'+list[1]+'.'+'255'+'.255'
+    ip = list[0]+'.'+list[1]+'.'+list[2]+'.255'
     print(ip)
 
     def run(self):

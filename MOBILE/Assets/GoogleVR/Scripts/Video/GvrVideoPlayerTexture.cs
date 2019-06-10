@@ -709,7 +709,7 @@ public class GvrVideoPlayerTexture : MonoBehaviour {
   }
 
   internal string ProcessURL() {
-    return videoURL.Replace("${Application.dataPath}", Application.dataPath).Replace("${Application.persistentDataPath}", Application.persistentDataPath);
+    return videoURL.Replace("${Application.dataPath}", Application.dataPath);
   }
 
   internal delegate void OnVideoEventCallback(IntPtr cbdata, int eventId);

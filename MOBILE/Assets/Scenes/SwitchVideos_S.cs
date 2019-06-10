@@ -37,6 +37,7 @@ namespace GoogleVR.VideoDemo
                 IntPtr ptr = GvrVideoPlayerTexture.CreateVideoPlayer();
                 if (ptr != IntPtr.Zero)
                 {
+                    GvrVideoPlayerTexture.DestroyVideoPlayer(ptr);
                 }
                 else
                 {
